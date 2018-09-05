@@ -1,0 +1,21 @@
+Customize deployment process using  Linux shell to automate the overall deployment process 
+Managing and Administrating Subversion & GIT tools includes creating Branches, Tagging and  Access  
+Creating automated build and release environment using continuous Integration tool Jenkins
+Creating tag ,branch & setting up projects using version controls like SVN , GIT
+Build plans in Jenkins CI tool
+Maintenance of ANT, Maven , Shell scripts for build and deployments
+Automate and monitor builds with Jenkins. Troubleshoot application related issues
+Deploying the Ears, JAVA Wars and Jars appropriately and setting up the Apache Tomcat, WebLogic instances
+Involved in editing the existing ANT, MAVEN files in case of errors or changes in the project requirements.
+Work closely with Development and QA teams on build and Deployment issues
+Trouble Shooting in Web server and Application server when any issue rise
+Creating new users and giving the proper permission to access the repository based on the project       
+Coordinating with developers and testers for SVN and GIT Related issues
+Responsible for maintaining SVN, GIT and troubleshooting the daily issues.
+Supporting Onsite deployment at onsite from off-shore
+Wrote ANT and Maven Scripts to automate the build process.
+Automate the build process using Jenkins, ANT and Maven. 
+Developing and maintaining build files by using ANT, Maven
+Responsible for creating the new projects & new build setup using Jenkins
+Responsible for the deployment on Linux for Dev/ QA, staging, productions environment
+Deploying the Ears, JAVA Wars and Jars appropriately and setting up the Apache Tomcat, instances

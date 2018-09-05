@@ -1,0 +1,62 @@
+
+
+linux - ifconfig / win- ipconfig
+
+cat 
+ls, ll,
+touch - empty 
+cd - 
+pwd -
+cp -R source destination : 
+cp source location destination
+clear
+history
+mv rename
+mv source to destination 
+rm -rf 
+
+
+cd 
+cd ../../..
+mkdir - folder creation
+
+top
+kill -9 process id
+
+ls , ls -R(sub dir),ls -a, ls -al
+
+uname
+
+free
+
+ping <ip> -c5
+clear
+
+history
+
+wget url
+pwd
+
+
+touch
+pwd
+wget
+clear
+ping
+history
+free
+uname
+cat
+man
+ls, ls -R, ls -a, ls -al.
+kill -9 process
+top
+
+chmod: 
+read -4
+write -2
+execute -1
+
+   7    7    7
+d{rwx}{r-x}{r-x} - drwxrwxrwx
+

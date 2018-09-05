@@ -1,0 +1,17 @@
+CUT command: 
+
+vi filename
+unix or linux os
+is unix good os
+is linux good os
+
+-> cut -c4 file
+->cut -c4,6 file
+->cut -c-6 filename
+->cut -c4-7 file
+
+-->cut -d' ' -f2 file 
+-->cut -d' ' -f2,3 file 
+
+
+->cut -d' ' -f1-3 file (start to end range)

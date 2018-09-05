@@ -1,0 +1,36 @@
+*********************************************
+cat:
+
+> file create (overwrite) file
+ex: touch raju
+    cat > filename
+
+    stop: ctrl+d
+
+
+>> file append to file # do something
+exm:  cat >> filename
+
+ctrl+d
+
+***********************************************
+
+WC - wordcount
+
+wc filename
+
+count Number of Lines
+Display Number of Words
+Count Number of Bytes and Characters
+
+
+wc -l
+wc -w
+
+***********************************************
+
+
+
+
+
+

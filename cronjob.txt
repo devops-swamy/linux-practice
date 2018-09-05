@@ -1,0 +1,42 @@
+CronJob:
+Jenkins used a cron expression, and the different fields are:
+
+* * * * *
+
+MINUTES Minutes in one hour (0-59)
+HOURS Hours in one day (0-23)
+DAYMONTH Day in a month (1-31)
+MONTH Month in a year (1-12)
+DAYWEEK Day of the week (0-7) where 0 and 7 are sunday
+
+Examples:
+
+To schedule your build every 5 minutes, this will do the job : */5 * * * * OR H/5 * * * *
+
+To the job every 5min past every hour(5th Minute of every Hour) 5 * * * *
+
+To schedule your build every day at 8h00, this will do the job : 0 8 * * *
+
+To schedule your build for 4, 6, 8, and 10 o’clock PM every day – 0 16,18,20,22 * * *
+
+To schedule your build at 6:00PM and 1 AM every day – 0 1,18 * * *
+
+To schedule your build start daily at morning – 03 09 * * 1-5
+
+To schedule your build start daily at lunchtime – 00 12 * * 1-5
+
+To schedule your build start daily in the afternoon – 00 14 * * 1-5
+
+To schedule your build start daily in the late afternoon – 00 16 * * 1-5
+
+To schedule your build start at midnight – 59 23 * * 1-5 OR @midnight
+
+To run a job on 9.30p.m. (at night) on 3rd of May then I ll write or 21.30 on 3/5/2011 – 21 30 3 5 *
+
+Every fifteen minutes (perhaps at :07, :22, :37, :52) 0 – H/15 * * * *
+
+Every ten minutes in the first half of every hour (three times, perhaps at :04, :14, :24) – H(0-29)/10 * * * *
+
+Once every two hours every weekday (perhaps at 10:38 AM, 12:38 PM, 2:38 PM, 4:38 PM) – H 9-16/2 * * 1-5
+
+Once a day on the 1st and 15th of every month except December – H H 1,15 1-11 *

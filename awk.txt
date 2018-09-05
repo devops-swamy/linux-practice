@@ -1,0 +1,17 @@
+awk:
+
+nr - record number
+nf - number of fileds
+ofs - output filed separater 
+
+/etc/passwd
+
+awk -F ':' '{print $1,$5}' passwd  1st and 6th field
+
+                    $2, $6
+
+awk 'NR==5,NR=7 {print}' passwd
+
+5th row , 7 fields 
+
+awk '{print $1,(NF)}'

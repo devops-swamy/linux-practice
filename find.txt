@@ -1,0 +1,20 @@
+find:
+
+find -name passwd
+     /
+find -iname filename
+
+find / -name "apache*"
+
+find . -type d    finding dir
+find -type d -name ".*"     Finding hidden dir
+find . -type f -name ".*"    finding files 
+
+find . -size +10M    Finding files larger than 10M size
+find . -size -10M
+
+find . -perm 777
+
+find . -mmin -30       Find the files which are modified within 30 minutes.
+find . -mtime -1       Find the files which are modified within 1 day
+

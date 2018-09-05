@@ -1,0 +1,22 @@
+sed:stream editor
+
+sed -n '10p' 
+sed -n '10,15p' 
+sed -n -e '10p' -e '16p'
+
+sed '/word/p'
+sed '/word/Ip' I-ignore
+
+sed 's/word/ /' filename
+           empty space
+sed '10i hello'
+sed '20a hello
+
+* sed -i 's/ant/ant1.9/g'
+  sed 's/word//g' word remove 
+
+  sed -n '/^H/p'
+  sed -n '/^c/Ip'
+
+  sed -n '/t$/Ip' filename
+  sed -n '/^..t/Ip'

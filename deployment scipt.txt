@@ -1,0 +1,6 @@
+rm -rf /opt/apache-tomcat-7.0.37/webapps/AntExample.war
+cp ${WORKSPACE}/dist/*.war  /opt/apache-tomcat-7.0.37/webapps
+
+
+rm -rf /opt/apache-tomcat-7.0.37/webapps/webapps.war
+cp ${WORKSPACE}/target/*.war  /opt/apache-tomcat-7.0.37/webapps

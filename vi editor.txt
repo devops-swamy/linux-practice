@@ -1,0 +1,24 @@
+vi editor:
+
+Keystrokes	Action
+
+options:
+
+i	Insert at cursor (goes into insert mode)
+a	Write after cursor (goes into insert mode)
+A	Write at the end of line (goes into insert mode)
+ESC	Terminate insert mode
+u	Undo last change (ctrl+z)
+o	Open a new line (goes into insert mode)
+dd
+dd	Delete line
+Delete 3 lines. 3dd
+4dw	Delete word
+Delete 4 words 4dw
+x	Delete character at the cursor
+R	Overwrite characters from cursor onward
+
+
+esc + :w	Save the file but keep it open
+esc + :q	Quit without saving
+esc + :wq	Save the file and quit

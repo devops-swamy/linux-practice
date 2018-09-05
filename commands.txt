@@ -1,0 +1,30 @@
+touch    - 
+touch {1..9}
+vi filename
+cp : cp soruce filename destination locaiton
+pwd
+scp source filename dest ip:/loation  
+
+telnet -> ssh service sshd status
+
+ps -ef | grep java
+netstat -anp | grep :8080
+
+
+kill -9 pid
+
+winscp , putty
+
+useradd:
+/etc/passwd
+useradd
+userdel
+
+passwd
+
+. current dir
+* total
+^ start
+$ end
+
+ssh-keys

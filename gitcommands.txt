@@ -1,0 +1,27 @@
+mkdir -> project name(in that floder we have project files like .java, .html, .css, .web.xml, pom.xml)
+
+cd project name
+
+git init (initialize git repo)
+git config --global user.name "gopi"
+git config --global user.email "gopi@gmail.com"
+
+git add . (adding the files into git staging area)
+
+git status (it will show a,m,d like add modify delete)
+
+git commit (to commit into the code our local repo)
+
+we will get the sha-1 id (40digit code)
+
+to move into central repo git remote add origin (communicate b/w our local repo and central repo)
+
+git push -u origin branch_name
+
+*******************************
+
+jenkins -> source code management
+
+git hub url estamu
+
+ 

@@ -1,0 +1,28 @@
+1.	How do you find out what’s your shell? - echo $SHELL
+2.	What’s the command to find out today’s date? - date
+3.	What’s the command to find out users on the system? -  who
+4.	How do you find out the current directory you’re in? - pwd
+5.	How do you remove a file? - rm
+6.	How do you remove a < in files the all with>- rm -rf 
+7.	How do you find out your own username? - whoami
+8.	How do you send a mail message to somebody? - mail somebody@techinterviews.com -s ‘Your subject’ -c ‘cc@techinterviews.com‘
+9.	How do you count words, lines and characters/bytes in a file? - wc
+10.	How do you search for a string inside a given file? - grep "string" filename
+11.	How do you search for a string inside a directory? - grep "string" *
+12.	How do you search for a string in a directory with the subdirectories recursed? - grep -r string /opt
+13.	What are PIDs? - 0 to 65535
+14.	How do you list currently running process? - ps 
+15.	How do you stop a process? - kill -9 pid
+16.	How do you find out about all running processes? - ps -ag
+17.	How do you stop all the processes, except the shell window? - kill 0
+18.	How do you find a process in the background? - ./process-name 
+19.	How do you refer to the arguments passed to a shell script? - $1, $2 and so on. $0 is your script name.
+20.	What’s the conditional statement in shell scripting? - if {condition} then … fi
+21.	How do you do number comparison in shell scripts? - -eq, -ne, -lelt, -, -gt, -ge
+22.	How do you find out the number of arguments passed to the shell script? - $#
+23.	What’s a way to do multilevel if-else’s in shell scripting? - if {condition} then {statement} elif {condition} {statement} fi
+24.	How do you write a while loop in shell? - while {condition} do {statement} done
+25.	How does a case statement look in shell scripts? - case {variable} in {possible-value-1}) {statement};; {possible-value-2}) {statement};; esac
+26.	How do you read keyboard input in shell scripts? - read {variable-name}
+27.	How do you define a function in a shell script? - function-name() { #some code here return }
+  
