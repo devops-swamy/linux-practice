@@ -285,6 +285,17 @@ echo "Arguments List : $*"
 echo "Arguments List : $@"
 echo "Process ID : $$"
 
+************************************
+echo "No. of arguments : $#"
+echo "First arg : $1"
+echo "Second arg: $2"
+
+shift 2
+
+echo "No. of arguments : $#"
+echo "First arg : $1"
+echo "Second arg: $2"
+
 ********************************
 echo "Input 2 values"
 
@@ -296,7 +307,7 @@ echo Second Value : $b
 
 *********************************
 
-2)Input 2 values
+2)Add 2 values
 
 
 echo "Input 2 values"
@@ -304,7 +315,7 @@ echo "Input 2 values"
 read a
 read b
 
-r=$(( a \* b ))
+r=$(( a + b ))
 
 echo "Result : $r"
 
@@ -323,6 +334,91 @@ echo Current Directory is : `pwd`
 echo Working User : `whoami`
 
 *****************************************
+
+Function calling:
+
+addr()
+{
+        echo "DevOps"
+        echo "Pune"
+}
+
+echo -e "\nStudent1"
+addr    ### function calling
+
+echo -e "\nStudent2"
+addr
+
+echo -e "\nStudent3"
+addr
+
+
+*****************************************
+Leap Year:
+
+echo "Input year"
+read y
+
+if [ `expr $y % 4` -eq 0  -a  `expr $y % 100` -ne 0  -o  `expr $y % 400` -eq 0 ];
+then
+	echo "Leap year"
+else
+	echo "Not leap year"
+fi
+
+******************************************
+
+echo -e  "Current Directory \t Current User \t Current Shell" > /myreport
+echo -e "----------------- \t ------------ \t -----------"  >> /myreport
+
+echo -e "`pwd` \t\t\t `whoami` \t\t $SHELL" >> /myreport
+
+echo "Report has generated : /myreport"
+
+*******************************************
+
+echo Ouput of '`pwd`' is : `pwd`
+
+*******************************************
+
+#! /bin/bash
+
+echo Current Directory is : `pwd`
+echo Working User : `whoami`
+
+********************************************
+
+echo "Input week number"
+read w
+
+case $w in
+0 )	echo "Sunday"
+	;;
+1 )	echo "Monday"
+	;;
+2 )	echo "Tuesday"
+	;;
+	
+3 )	echo "Wednesday"
+	;;
+4 )	echo "Thurday"
+	;;
+5 )	echo "Friday"
+	;;
+
+6 )	echo "Saturday"
+	;;
+* )	echo "Invalid week day: Please input from  [0-6]"
+esac
+
+
+*****************************************************
+
+
+
+
+
+
 
 
 
